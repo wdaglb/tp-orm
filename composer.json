@@ -1,0 +1,16 @@
+{
+    "name": "wdaglb/tp-orm",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "King east",
+            "email": "1207877378@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ke\\model\\": "src"
+        }
+    }
+}
