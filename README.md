@@ -2,7 +2,7 @@
 
 *可以使用tp6.x的动态绑定属性到父模型方法*
 
-*安装*
+**安装**
 
 在composer.json增加
 ```
@@ -16,9 +16,9 @@
 
 使用composer require ke/tp-orm dev-master即可
 
-*使用*
+**使用**
 
-如果要使用此方法，则你的模型需要继承\ke\Model。而不是\think\Model
+如果要使用此方法，则你的模型需要继承\ke\model\Model。而不是\think\Model
 
 可以使用动态绑定关联属性，可以使用
 
