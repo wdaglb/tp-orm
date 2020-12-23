@@ -14,6 +14,7 @@ use think\Paginator;
  * Class Model
  * @package ke\model
  * @mixin Query
+ * @property mixed $name
  * @method $this scope(string|array $scope) static 查询范围
  * @method $this where(mixed $field, string $op = null, mixed $condition = null) static 查询条件
  * @method $this whereRaw(string $where, array $bind = [], string $logic = 'AND') static 表达式查询
