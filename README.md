@@ -4,17 +4,7 @@
 
 **安装**
 
-在composer.json增加
-```
-"repositories": [
-    {
-        "type": "git",
-        "url": "https://github.com/wdaglb/tp-orm"
-    }
-]
-```
-
-使用composer require ke/tp-orm dev-master即可
+`` composer require ke/tp-orm dev-master ``
 
 **使用**
 
